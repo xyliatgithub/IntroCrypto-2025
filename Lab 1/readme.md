@@ -7,6 +7,7 @@ The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https:
 
 
 ## Environment Setup
+Remember you can always gain access to the computers in the MSSI lab. You may need to complete certain paperwork for this.
 
 ### Intel/AMD (x86-64)
 
@@ -17,14 +18,14 @@ The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https:
 
 ### Apple Silicon (ARM64)
 
-The latest version VirtualBox Player software may be compatible with these computers. But we have not tested them.
+The [latest version VirtualBox](https://www.virtualbox.org/wiki/Downloads) Player software may be compatible with these computers. But we have not tested them.
 
 **FYI- Using VMware Fusion Player on Apple Silicon machines (M chips)**: VMware may not support SEED Ubuntu 20.04 VM. Then you need to do the following steps.  
 
 *Note for lab 1*: Due to the higher kernel version on Ubuntu 22.04 , the [random number generator](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works differently on ARM VM 22.04. So this option does NOT work for Lab 1.
 
 1. Download and install [VMware Fusion Player](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free).
-2.  Download [Ubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [Ubuntu 24.10](https://cdimage.ubuntu.com/daily-live/current/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
+2.  Download [Ubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [Ubuntu 24.10](https://old-releases.ubuntu.com/releases/oracular/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
 3. Follow the instructions for [Apple Silicon Machines](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to create an Ubuntu 22.04 VM on VMware Fusion Player and complete the VM setup.
 
 ## Troubleshooting
