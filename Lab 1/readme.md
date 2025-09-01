@@ -16,13 +16,13 @@ The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https:
 4. Start your VM and log in with the default credentials `seed:dees`.
 
 ### Apple Silicon (ARM64)
-**Note that the Ubuntu image download link in the instructions no longer works. Download [22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [24.10](https://cdimage.ubuntu.com/daily-live/current/) (Use this if you don't know what the previous is) instead**
 
 **Currently not support lab 1**: Due to the higher kernel version on Ubuntu 22.04 , the [random number generator](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works different on ARM VM 22.04. If you are working on lab 1, we suggest switching to windows or using machines in MSSI lab.      
-**Using VMware Fusion Player**: VirtualBox does not fully support our SEED Ubuntu 20.04 VM on Apple Silicon machines (M chips). We recommend using **VMware Fusion Player** to set up the lab VM.  
+
+**FYI Using VMware Fusion Player**: VMware may not work support SEED Ubuntu 20.04 VM on Apple Silicon machines (M chips). Then you need to do the following steps.  
 
 1. Download and install [VMware Fusion Player](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free).
-2. Download the [Ubuntu 22.04 ISO image](https://cdimage.ubuntu.com/jammy/daily-live/current/) for the operating system. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
+2.  Download [22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [24.10](https://cdimage.ubuntu.com/daily-live/current/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
 3. Follow the instructions for [Apple Silicon Machines](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to create an Ubuntu 22.04 VM on VMware Fusion Player and complete the VM setup.
 4. Start your VM and log in with the default credentials `seed:dees` (if not changed).
 
