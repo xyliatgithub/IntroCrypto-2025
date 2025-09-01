@@ -21,7 +21,7 @@ The latest version VirtualBox Player software may be compatible with these compu
 
 **FYI- Using VMware Fusion Player on Apple Silicon machines (M chips)**: VMware may not support SEED Ubuntu 20.04 VM. Then you need to do the following steps.  
 
-*Note for lab 1*: Due to the higher kernel version on Ubuntu 22.04 , the [random number generator](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works differently on ARM VM 22.04. So this option does work for Lab 1.
+*Note for lab 1*: Due to the higher kernel version on Ubuntu 22.04 , the [random number generator](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works differently on ARM VM 22.04. So this option does NOT work for Lab 1.
 
 1. Download and install [VMware Fusion Player](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free).
 2.  Download [Ubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [Ubuntu 24.10](https://cdimage.ubuntu.com/daily-live/current/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
