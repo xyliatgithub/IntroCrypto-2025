@@ -3,7 +3,7 @@ In this [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Random_Number
 
 
 ## Lab Enviroment
-The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https://seedsecuritylabs.org/labsetup.html) (VM) to simplify the experiment setup. Load the VM image with your VirtualBox or VMware (whichever you prefer). [Here](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) is the manual to install the VM on your computer. Please read the VM [User Manual](https://web.ecs.syr.edu/~wedu/seed/Documentation/Ubuntu16_04_VM/Ubuntu16_04_VM_Manual.pdf) (which is for an older version, but basically same) carefully before you start working on the labs.
+The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https://seedsecuritylabs.org/labsetup.html) (VM) to simplify the experiment setup. Load the VM image with your VirtualBox or VMware (whichever you prefer). [Here](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) is the manual to install the VM on your computer.
 
 
 ## Environment Setup
@@ -18,9 +18,9 @@ Remember you can always gain access to the computers in the MSSI lab. You may ne
 
 ### Apple Silicon (ARM64)
 
-The [latest version VirtualBox](https://www.virtualbox.org/wiki/Downloads) Player software may be compatible with these computers. But we have not tested them.
+*UPDATE*: The [latest version VirtualBox](https://www.virtualbox.org/wiki/Downloads) may be compatible with these computers. But we have not tested them.
 
-**FYI- Using VMware Fusion Player on Apple Silicon machines (M chips)**: VMware may not support SEED Ubuntu 20.04 VM. Then you need to do the following steps.  
+**FYI- Using VMware Fusion Player on Apple Silicon machines (M chips)**: Students with Apple Silicon machines (M1/M2 chips) have not been able to run pre-built SEEDUbuntu 20.04 VM, due to the lack of support from VirtualBox. They can now set up a SEED VM using VMWare Fusion Player (free version).
 
 *Note for lab 1*: Due to the higher kernel version on Ubuntu 22.04 , the [random number generator](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works differently on ARM VM 22.04. So this option does NOT work for Lab 1.
 
