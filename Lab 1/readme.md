@@ -20,9 +20,9 @@ Remember you can always gain access to the computers in the MSSI lab (Malone 316
 
 *UPDATE*: The [latest version VirtualBox](https://www.virtualbox.org/wiki/Downloads) may be compatible with these computers. But we have not tested them.
 
-**FYI- Using VMware Fusion Player on Apple Silicon machines (M chips)**: Students with Apple Silicon machines (M chips) have not been able to run pre-built SEEDUbuntu 20.04 VM, due to the lack of support from VirtualBox. They can now set up a SEED VM using VMWare Fusion Player (free version).
+**Using VMware Fusion Player on Apple Silicon machines (M chips)**: 
 
-*Note for lab 1*: Unfortunately, due to the higher kernel version on Ubuntu 22.04 , the [random number generator](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works differently on ARM VM 22.04. So this option does NOT work for Lab 1.
+*Note for lab 1*: Unfortunately, due to the higher kernel version on Ubuntu 22.04 , the [random number generator lab](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works differently on ARM VM. So this option does NOT work for Lab 1.
 
 1. Download and install [VMware Fusion Player](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free).
 2.  Download [Ubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [Ubuntu 24.10](https://old-releases.ubuntu.com/releases/oracular/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
