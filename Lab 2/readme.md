@@ -4,7 +4,7 @@ This [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Encryption/Crypt
 
 ## Environment Setup
 
-1. Please reuse the VM/environment from Lab 1. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow:
+1. Please reuse the VM/environment from Lab 1. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 Environment Setup](https://github.com/xyliatgithub/IntroCrypto-2025/blob/main/Lab%201/readme.md)
 
 
 ## Lab Notices
