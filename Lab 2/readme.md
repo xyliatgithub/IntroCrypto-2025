@@ -6,6 +6,8 @@ This [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Encryption/Crypt
 
 1. Please reuse the VM/environment from Lab 1. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 Environment Setup](https://github.com/xyliatgithub/IntroCrypto-2025/blob/main/Lab%201/readme.md)
 
+***Note*** Starting from this lab, you can use Mac + VMware Fusion Player. The kernel version issue affecting Lab 1 does not impact this experiment.
+
 
 ## Lab Notices
 * You can skip **Tasks 1, 6.2, 6.3 and 7**– frequency analysis against monoalphabetic substitution cipher and programming using the crypto library.
